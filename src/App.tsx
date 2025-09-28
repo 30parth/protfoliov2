@@ -6,6 +6,7 @@ import Footer from './layout/footer'
 import Skill from './page/skill'
 import Project from './page/project'
 import Contact from './page/contact'
+import { Toaster } from './components/ui/sonner'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
         <BrowserRouter>
           <Navbar />
+          <Toaster position="top-center" />
           <main className='flex-1'>
             <Routes>
               <Route path="/" element={<Home />} />

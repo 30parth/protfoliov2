@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { BlurFade } from '@/components/ui/blur-fade';
+import { toast } from 'sonner';
 const Contact = () => {
 
     const form = useRef<HTMLFormElement | null>(null);
@@ -25,12 +26,12 @@ const Contact = () => {
         ).then(
             (result) => {
                 console.log('Success:', result.text);
-                alert('Thanks! Your message has been sent.');
+                toast.success('Thanks! Your message has been sent.');
                 setStatus("success");
             },
             (error) => {
                 console.log('Error:', error.text);
-                alert('Oops! Something went wrong.');
+                toast.error('Oops! Something went wrong.');
             }
         );
         e.currentTarget.reset()
