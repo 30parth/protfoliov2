@@ -15,7 +15,28 @@ const projects: Project[] = [
         description: "A portfolio built with React, shadcn/ui, and charting.",
         image: "/new-p.png",
         github: "https://github.com/30parth/protfoliov2",
-        demo: "https://example.com/demo-one",
+        demo: "https://www.solankiparth.info",
+    },
+    {
+        title: "Education Erp",
+        description: "a comprehensive software platform that integrates and automates an institution’s academic and administrative operations",
+        image: "/education.png",
+        github: "https://github.com/30parth/education-erp",
+        demo: "https://education-erp-wiql.onrender.com/",
+    },
+    {
+        title: "Balancifypro",
+        description: "To Track your Daily Expenses and Income. Track your money flow",
+        image: "/balance.png",
+        github: "https://github.com/30parth/expense-tracker",
+        demo: "https://balancifypro.vercel.app/",
+    },
+    {
+        title: "Billing Site",
+        description: "Simple Create your bill . download it and send to customer",
+        image: "/bill.png",
+        github: "https://github.com/30parth/billing-app",
+        demo: "https://billing.solankiparth.info/",
     },
     {
         title: "Foodly ",
@@ -29,12 +50,6 @@ const projects: Project[] = [
         image: "/old_portfilio.png",
         github: "https://github.com/30parth/profiliov1",
         demo: "https://parthsolankij.netlify.app/",
-    },
-    {
-        title: "NewsMonky ",
-        description: "A news website built with React and NewsAPI.",
-        image: "/news.png",
-        github: "https://github.com/30parth/NewsApp",
     },
 ]
 
